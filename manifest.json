@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Webpage Speed Test Extension",
+  "description": "This is a chrome extension that tests the speed of the current webpage",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "speed-test-icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
